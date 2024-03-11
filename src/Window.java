@@ -26,6 +26,7 @@ public class Window {
 		System.out.println(wh);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);
 	    
 	    
 	}
